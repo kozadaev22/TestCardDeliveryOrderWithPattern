@@ -16,7 +16,7 @@ public class TestFormsCard {
     @Test
     @DisplayName("Should successful plan and replan meeting")
     void shouldSuccessfulPlanAndReplanMeeting() {
-        Configuration.holdBrowserOpen = true;
+//        Configuration.holdBrowserOpen = true;
 //        - Чтобы после окончания не закрылась
         open("http://localhost:9999");
         var validUser = DataGenerator.Registration.generateUser("ru");
