@@ -40,8 +40,8 @@ public class DataGenerator {
         String phone;
     }
 
-    public static class Regestration {
-        private Regestration() {
+    public static class Registration{
+        private Registration() {
         }
 
         public static UserInfo generateUser(String locale) {
